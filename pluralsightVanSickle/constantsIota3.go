@@ -15,10 +15,6 @@ const (
 )
 
 func main() {
-		fmt.Printf("%v\n", KB)
-		fmt.Printf("%v\n", MB)
-		fmt.Printf("%v\n", GB)
-		fmt.Printf("%v\n", TB)
-		fmt.Printf("%v\n", PB)
-		fmt.Printf("%v\n", EB)
+		fileSize := 4000000000.
+		fmt.Printf("%.2fGB", fileSize/GB)
 }
